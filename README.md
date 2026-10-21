@@ -1,24 +1,23 @@
-# port
-A collection of small Python scripts I've built while learning to code — mostly self-taught, picking up concepts as I needed them for each project.
+# Learning projects
 
-Scripts
+The first programs I wrote while teaching myself to code (2026). They're small on purpose: each one was built to properly understand one idea, not to copy-paste something that works.
 
+For my bigger projects, see my [profile](https://github.com/axm12345).
 
-terminal_calc.py
+## What's here
 
-A command-line calculator. Built to practice handling user input, basic error handling, and control flow.
+| Project | What it does | What I learned | Open it |
+|---|---|---|---|
+| 💘 **Valentine page** | A "Will you be my Valentine?" page where the **No** button runs away from your mouse (or finger on a phone) and the text teases you. Pressing **Yes** sets off a burst of hearts. | DOM events, mouse and touch handling, keeping an element inside the screen, CSS animation | [`index.html`](index.html) · [`script.js`](script.js) · [`style.css`](style.css) |
+| 🧮 **Terminal calculator** | Type a sum like `12*4` and it prints the answer | Reading input, splitting strings, `if/elif` | [`terminal_calc.py`](terminal_calc.py) |
+| 🎯 **Number guessing game** | Picks a secret number and tells you "too high" or "too low" until you get it | Loops, random numbers, input checks | [`num_guessing.py`](num_guessing.py) |
+| ✅ **To-do list** | Add, remove and view tasks from a text menu | Lists, menus, handling bad input | [`todo_list.py`](todo_list.py) |
 
+## Run them
 
-num_guessing.py
+- **Valentine page:** download the repo and open `index.html` in a browser.
+- **Python programs:** `python terminal_calc.py` (same for the others). Python 3, no extra packages needed.
 
-A number guessing game. Built to practice loops, conditionals, and random number generation.
+## About me
 
-
-todo_list.py
-
-A simple terminal-based to-do list. Built to practice working with data structures and persistent program state.
-
-
-About me
-
-Second-year AI & Robotics Engineering student, interested in both hardware and software. Still early in my coding journey. These scripts are small on purpose, built to actually understand the fundamentals rather than just copy-paste something that works.
+Second-year AI & Robotics Engineering student at Chulalongkorn University, interested in both hardware and software.
